@@ -1,0 +1,98 @@
+body{
+	background-image: url(Afbeelding/lightblue.jpg);
+	width:960px;
+	background-size: cover;
+
+}
+
+.header {
+		margin-top: 1%;
+		margin-left: 3.5%;
+		margin-top: 1%;
+		margin-right: 110%;
+		font-size: 200%;
+		padding-left: 8px;
+		padding-right: 158px;
+		padding-top: 4px;
+		padding-bottom: -1px;
+		
+
+}
+
+img{
+	border: 5px solid #b3b3ff;
+}
+h5 {
+	color: white;
+	font-size: 400%;
+	margin-left: 57.5%;
+	margin-right: 30.3%;
+	margin-top: -12.5%;
+
+
+}
+
+.dikkerand{
+	border: 10px solid #84A6BE;
+	border-radius:20px 20px 20px 20px;
+	background-color: #b3b3ff;
+}
+
+a:link {
+    color:  #4d4dff;
+}
+
+
+a:visited {
+    color: white;
+}
+
+h3{
+	text-align: center;
+	font-size: 200%;
+}
+
+
+nav{
+	font-family: "Arial"
+	background-color: #ccccff;
+	width:200px;
+	height:500px;
+	padding:10px;
+	margin-top: -5%;
+	margin-bottom:1px;
+}
+
+.column2 {
+	font-family: "Arial"
+	width:450px;
+	color: white;
+	border: 2.5px solid #84A6BE;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 40%;
+	margin-top: -55.5%;
+
+}
+
+#footer {
+	text-align: center;
+	width:130%;
+	margin-top: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: transparent;
+    border: 2.5px solid #84A6BE;
+    color: white;
+    font-size: 125%;
+    font-weight: 900;
+  
+	margin-top: 25%;
+	padding-left:7.5%;
+
+	border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
