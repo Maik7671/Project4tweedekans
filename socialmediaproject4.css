@@ -1,9 +1,9 @@
 body {
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto; white;
+	text-align:center;
 	background-image: url(Afbeelding/lightbluebackground.png);
 	background-size: cover;
-	text-align:center;
 }
 	
 #content {
@@ -11,7 +11,7 @@ body {
 	height: 100%;}
 	
 #nav, #footer {
-	border: solid #33ccff;;
+	border: solid #33ccff;
 	border-radius: 20px 20px 20px 20px;
 	color: #33ccff;
 	padding: 0.2em;
@@ -24,8 +24,12 @@ a:link {
 
 
 a:visited {
-    color: #33ccff;;
+    color: #33ccff;
 }
+h1 {
+	font-size: 3.0em;
+}
+
 
 h4 {
 	text-align: center;
@@ -34,6 +38,7 @@ h4 {
 	padding-right: 0.9em;
 	margin-bottom: 1px;
 	margin-top: 1px;
+
 }
 
 #feature {
@@ -45,43 +50,6 @@ h4 {
 	margin-right: 25%;
 }
 	
-.column1 {
-	border: solid #cd7f32;
-	color: #cd7f32;
-	border-radius: 16em 16em 16em 16em;
-	text-align: center;
-	width: 25%;
-	float: left;
-	padding: 0.2em;
-	margin-bottom: 0.2em;
-	margin-top: 1em;
-	margin-left:5%;
-	margin-right: 6%;
-}
-
-.column2 {
-	border: solid silver;
-	color: silver;
-	border-radius: 16em 16em 16em 16em;
-	padding: 0.2em;
-	width: 25%;
-	float: left;
-	margin-top: 1em;
-}
-
-.column3 {
-	border: solid gold;
-	color: gold;
-	border-radius: 16em 16em 16em 16em;
-	width: 25%;
-	float: left;
-	padding: 0.2em;
-	margin-top: 1em;
-	margin-right: 5%;
-	margin-left: 6%;
-
-}
-	
 li{ 
 	display: inline;
 	padding: 5px}
@@ -89,4 +57,14 @@ li{
 .Script {
 	text-decoration: underline;
 
+}
+
+ #Etalage{
+	height: 30%;
+	width: 65%;
+	margin-left:18%;
+	border-style:solid;
+	border-color: #44ccff;
+	border-width: 0em 0.5em 0em 0.5em;
+	padding:0.5em;
 }

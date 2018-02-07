@@ -1,9 +1,9 @@
 body {
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto; white;
+	text-align:center;
 	background-image: url(Afbeelding/lightbluebackground.png);
 	background-size: cover;
-	text-align:center;
 }
 	
 #content {
@@ -11,7 +11,7 @@ body {
 	height: 100%;}
 	
 #nav, #footer {
-	border: solid #33ccff;;
+	border: solid #33ccff;
 	border-radius: 20px 20px 20px 20px;
 	color: #33ccff;
 	padding: 0.2em;
@@ -24,7 +24,7 @@ a:link {
 
 
 a:visited {
-    color: #33ccff;;
+    color: #33ccff;
 }
 
 h4 {
@@ -34,6 +34,7 @@ h4 {
 	padding-right: 0.9em;
 	margin-bottom: 1px;
 	margin-top: 1px;
+
 }
 
 #feature {
@@ -46,33 +47,34 @@ h4 {
 }
 	
 .column1 {
-	border: solid #cd7f32;
-	color: #cd7f32;
+	border: solid yellow;
 	border-radius: 16em 16em 16em 16em;
-	text-align: center;
-	width: 25%;
-	float: left;
+	color: yellow;
 	padding: 0.2em;
+	text-align: center;
 	margin-bottom: 0.2em;
 	margin-top: 1em;
-	margin-left:5%;
+
+	width: 25%;
+	float: left;
+	margin-left: 5%;
 	margin-right: 6%;
 }
 
 .column2 {
-	border: solid silver;
-	color: silver;
+	border: solid orange;
 	border-radius: 16em 16em 16em 16em;
+	color: orange;
 	padding: 0.2em;
+	margin-top: 1em;
 	width: 25%;
 	float: left;
-	margin-top: 1em;
 }
 
 .column3 {
-	border: solid gold;
-	color: gold;
+	border: solid Green;
 	border-radius: 16em 16em 16em 16em;
+	color: Green;
 	width: 25%;
 	float: left;
 	padding: 0.2em;

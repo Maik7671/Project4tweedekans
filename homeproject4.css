@@ -46,8 +46,8 @@ h4 {
 }
 	
 .column1 {
-	border: solid #cd7f32;
-	color: #cd7f32;
+	border: solid #33ccff;
+	color: #33ccff;
 	border-radius: 16em 16em 16em 16em;
 	text-align: center;
 	width: 25%;
@@ -60,8 +60,8 @@ h4 {
 }
 
 .column2 {
-	border: solid silver;
-	color: silver;
+	border: solid #33ccff;
+	color: #33ccff;
 	border-radius: 16em 16em 16em 16em;
 	padding: 0.2em;
 	width: 25%;

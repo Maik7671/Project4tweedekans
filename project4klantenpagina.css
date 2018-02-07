@@ -1,0 +1,117 @@
+body {
+	width: 100%;
+	margin: 0 auto; white;
+	text-align:center;
+	background-image: url(Afbeelding/lightbluebackground.png);
+	background-size: cover;
+}
+	
+#content {
+	overflow: auto;
+	height: 100%;}
+	
+#nav, #footer {
+	border: solid #33ccff;
+	border-radius: 20px 20px 20px 20px;
+	color: #33ccff;
+	padding: 0.2em;
+	margin: 0.6em;
+}
+
+#footer{
+	margin-top: 80%;
+}
+
+a:link {
+    color:  black;
+}
+
+
+a:visited {
+    color: #33ccff;
+}
+
+#h2 {
+	color: #33ccff;
+	font-size: 1.3em;
+	padding-bottom: 0.1%;
+	padding-top: 0.1%;
+	margin-bottom: 0.1%;
+	border: solid #44ccff;
+	border-width: 4px 0px 4px 0px;
+}
+
+#h4 {
+	text-align: center;
+	font-size: 1.5em;
+	padding: 0.1%;
+	
+
+}
+
+#feature {
+	border: solid #33ccff;
+	color: #33ccff;
+	border-radius: 4em 4em 4em 4em;
+	padding-left: 0.6em;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.column2 {
+	
+	color: #33ccff;
+	padding: 0.2em;
+	margin-top: 1em;
+	width: 50%;
+	height: 30%;
+	float: left;
+	margin-left: 25%;
+}
+
+.column3 {
+	margin-top: 60%;
+	color: #33ccff;
+	padding: 0.2em;
+	margin-top: 1em;
+	width: 50%;
+	height: 30%;
+	float: left;
+	margin-left: 25%;
+}
+
+
+
+	
+li{ 
+	display: inline;
+	padding: 2em;}
+
+.Script {
+	text-decoration: underline;
+
+}
+
+.mySlides {
+	display: none;
+}
+.left, .right, .badge {
+	cursor:pointer;
+}
+.display-container{
+	border: solid #33ccff;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+	margin-top: 1%;
+}
+
+.mySlides2 {
+	display: none;
+}
+.left2, .right2, .badge2 {
+	cursor:pointer;
+}
+.display-container2{
+	border: solid #33ccff;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+	margin-top: 1%;
+}

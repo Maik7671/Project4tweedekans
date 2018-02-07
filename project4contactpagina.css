@@ -1,0 +1,113 @@
+body {
+	width: 100%;
+	margin: 0 auto; white;
+	text-align:center;
+	background-image: url(Afbeelding/lightbluebackground.png);
+	background-size: cover;
+}
+	
+#content {
+	overflow: auto;
+	height: 100%;}
+	
+#nav, #footer {
+	border: solid #33ccff;
+	border-radius: 1.3em 1.3em 1.3em 1.3em;
+	color: #33ccff;
+	padding: 0.2em;
+	margin: 0.6em;
+}
+
+#footer {
+	margin-top: 52%;
+}
+
+a:link {
+    color:  black;
+}
+
+
+a:visited {
+    color: #33ccff;
+}
+
+h4 {
+	text-align: center;
+	font-size: 1.5em;
+	padding-left: 0.9em;
+	padding-right: 0.9em;
+	margin-bottom: 1px;
+	margin-top: 1px;
+
+}
+
+#feature {
+	border: solid #33ccff;
+	color: #33ccff;
+	border-radius: 4em 4em 4em 4em;
+	padding-left: 0.6em;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 100%;
+}
+
+.column2 {
+	border: solid #33ccff;
+	border-radius: 2em 2em 2em 2em;
+	margin-left: 10%;
+	color: #33ccff;
+	
+	margin-top: 1em;
+	width: 75%;
+	float: left;
+}
+
+	
+li{ 
+	display: inline;
+	padding: 5px}
+
+.Script {
+	text-decoration: underline;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+
+    background-color: #33ccff;
+    
+}
+
+
+.container {
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-right: 0.5em;
+	padding-left: 1em;
+	padding-top: 0.5em;
+    border-radius: 0.3em;
+    text-align: center;
+    background-color: transparent;
+}
